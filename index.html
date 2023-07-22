@@ -17,14 +17,24 @@
     <title>Travel With Fsn</title>
   </head>
   <body>
-    <nav class="flex justify-between items-center p-3 md:container mx-auto text-lg lg:text-3xl">
+    <header class="flex justify-between items-center p-3 md:container mx-auto text-lg lg:text-3xl sticky top-0 bg-white">
       <img src="./images/logo.png" class="object-cover w-30 lg:w-40 my-2" alt="logo" />
-      <div>
-        <a class="no-underline mx-2 text-blue-500">Home</a>
+    <nav class="">
+      <details class="md:hidden px-10">
+        <summary class="list-none mx-auto"><i class="bi bi-list text-4xl"></i></summary>
+        <div class="absolute grid grid-cols-1 gap-3 bg-white px-3 py-5">
+        <ul><a class="no-underline">Home</a></ul>
+        <ul><a class="no-underline">About</a></ul>
+        <ul><a class="no-underline">Contact</a></ul>
+        </div>
+      </details>
+      <div class="hidden md:block">
+        <a class="no-underline mx-2 text-black">Home</a>
         <a class="no-underline mx-2 text-black">About</a>
         <a class="no-underline mx-2 text-black">Contact</a>
       </div>
     </nav>
+    </header>
 
     <section class="py-10 px-4 bg-slate-900 text-white">
       <div class="md:container mx-auto">
