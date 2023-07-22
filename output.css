@@ -627,6 +627,11 @@ video {
   margin-top: 1.25rem;
 }
 
+.me-5 {
+  -webkit-margin-end: 1.25rem;
+          margin-inline-end: 1.25rem;
+}
+
 .block {
   display: block;
 }
@@ -735,6 +740,11 @@ video {
   background-color: rgb(255 255 255 / var(--tw-bg-opacity));
 }
 
+.bg-slate-100 {
+  --tw-bg-opacity: 1;
+  background-color: rgb(241 245 249 / var(--tw-bg-opacity));
+}
+
 .bg-\[url\(\'\.\/images\/bg\.png\'\)\] {
   background-image: url('./images/bg.png');
 }
@@ -753,6 +763,10 @@ video {
 
 .bg-\[url\(\'\.\/images\/vector2\.png\'\)\] {
   background-image: url('./images/vector2.png');
+}
+
+.bg-none {
+  background-image: none;
 }
 
 .bg-contain {
@@ -1078,6 +1092,14 @@ video {
     gap: 0px;
   }
 
+  .md\:bg-\[url\(\'\.\/images\/bg\.png\'\)\] {
+    background-image: url('./images/bg.png');
+  }
+
+  .md\:bg-\[url\(\'\.\/images\/bg2\.png\'\)\] {
+    background-image: url('./images/bg2.png');
+  }
+
   .md\:px-5 {
     padding-left: 1.25rem;
     padding-right: 1.25rem;
@@ -1091,6 +1113,15 @@ video {
   .md\:py-5 {
     padding-top: 1.25rem;
     padding-bottom: 1.25rem;
+  }
+
+  .md\:py-20 {
+    padding-top: 5rem;
+    padding-bottom: 5rem;
+  }
+
+  .md\:pt-20 {
+    padding-top: 5rem;
   }
 
   .md\:text-7xl {
